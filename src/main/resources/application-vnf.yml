@@ -1,10 +1,10 @@
 spring:
-    profiles: vnt
+    profiles: vnf
     application:
         name: LOCALHOSTVN
 
 server:
-    port: 8804
+    port: 8801
 
 eureka:
     instance:

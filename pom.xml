@@ -153,6 +153,57 @@
                 <spring.profiles.active>vnt</spring.profiles.active>
             </properties>
         </profile>
+        <profile>
+            <id>vnth</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-undertow</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                    <optional>true</optional>
+                </dependency>
+            </dependencies>
+            <properties>
+                <spring.profiles.active>vnth</spring.profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>vnf</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-undertow</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                    <optional>true</optional>
+                </dependency>
+            </dependencies>
+            <properties>
+                <spring.profiles.active>vnf</spring.profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>vnfi</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-undertow</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-devtools</artifactId>
+                    <optional>true</optional>
+                </dependency>
+            </dependencies>
+            <properties>
+                <spring.profiles.active>vnfi</spring.profiles.active>
+            </properties>
+        </profile>
     </profiles>
 
 </project>

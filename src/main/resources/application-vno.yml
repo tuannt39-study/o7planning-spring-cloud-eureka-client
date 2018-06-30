@@ -4,7 +4,7 @@ spring:
         name: LOCALHOSTVN
 
 server:
-    port: 8773
+    port: 8803
 
 eureka:
     instance:

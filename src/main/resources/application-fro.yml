@@ -4,7 +4,7 @@ spring:
         name: LOCALHOSTFR
 
 server:
-    port: 8775
+    port: 8781
 
 eureka:
     instance:
