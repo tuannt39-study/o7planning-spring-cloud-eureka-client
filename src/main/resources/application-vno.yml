@@ -1,0 +1,15 @@
+spring:
+    profiles: vno
+    application:
+        name: LOCALHOSTVN
+
+server:
+    port: 8773
+
+eureka:
+    instance:
+        appname: LOCALHOSTVN
+    client:
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: 'http://localhost-vn:8763/eureka/'

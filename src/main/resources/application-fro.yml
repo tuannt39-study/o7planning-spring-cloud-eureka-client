@@ -1,0 +1,15 @@
+spring:
+    profiles: fro
+    application:
+        name: LOCALHOSTFR
+
+server:
+    port: 8775
+
+eureka:
+    instance:
+        appname: LOCALHOSTFR
+    client:
+        fetchRegistry: true
+        serviceUrl:
+            defaultZone: 'http://localhost-fr:8762/eureka/'
